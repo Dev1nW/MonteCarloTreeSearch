@@ -152,7 +152,7 @@ class MonteCarloTreeSearch():
         # Go through all possible actions that can be taken in the state
         for i in range(self.env.action_space.n):
             
-            # Load in state informantion
+            # Load in state information
             self.env.ale.restoreState(node.state)
 
             # Perform action
